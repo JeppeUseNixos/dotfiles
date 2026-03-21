@@ -1,0 +1,9 @@
+[submodule "config/alacritty"]
+	path = config/alacritty
+	url = git@github.com:JeppeUseNixos/alacritty.config
+[submodule "config/niri"]
+	path = config/niri
+	url = git@github.com:JeppeUseNixos/niri.config
+[submodule "config/nvim"]
+	path = config/nvim
+	url = git@github.com:JeppeUseNixos/nvim.config
