@@ -101,7 +101,7 @@ in{
   };
   home.file."Backgrounds".source = ./config/backgrounds;
   home.file.".config/waybar".source = ./config/waybar;
-	xdg.configFile."alacritty".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/nixos-dotfiles/config/alacritty";
-	xdg.configFile."niri".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/nixos-dotfiles/config/niri";
-	xdg.configFile."nvim".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/nixos-dotfiles/config/nvim";
+	xdg.configFile."alacritty".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/alacritty";
+	xdg.configFile."niri".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/niri";
+	xdg.configFile."nvim".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/nvim";
 }
