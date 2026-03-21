@@ -64,6 +64,9 @@ in{
       user.name = "Jeppe Wolff Johansen";
       user.email = "JeppeUseNixos@proton.me";
       init.defaultBranch = "main";
+			commit.gpgsign = true;
+			gpg.format = "openpgp";
+			user.signingkey = "A0CC64616A31B7C7";
     };
   };
   programs.zsh = {
