@@ -29,6 +29,7 @@ in{
     nixfmt
     fzf
 		nix-prefetch-git
+		winboat
   ];
   programs.neovim = {
     enable = true;
