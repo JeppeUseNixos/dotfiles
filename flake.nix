@@ -7,7 +7,6 @@
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
 		zen-browser.url = "github:youwen5/zen-browser-flake";
-		nixpkgs-freerdp.url = "github:NixOS/nixpkgs/58cc470123a6d36e2d1926679f228490a618d356";
 	};
 
 	outputs = inputs@{self, nixpkgs, home-manager, ... }: {
@@ -25,13 +24,6 @@
 						backupFileExtension = "backup";
 					};
 				}
-				({pkgs, ...}: {
-					nixpkgs.overlays = [
-						(final: prev: {
-							freerdp = import inputs.nixpkgs-freerdp { system = pkgs.stdenv.hostPlatform.system; };
-						})
-					];
-				})
 			];
 		};
 	};
