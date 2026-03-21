@@ -83,7 +83,7 @@ pkgs,
 		banana-cursor
 		pass
 		wl-clipboard
-		vencord
+		discord
 		inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
 	];
 	fonts.fontDir.enable = true;
