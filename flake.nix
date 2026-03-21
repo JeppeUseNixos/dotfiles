@@ -20,7 +20,7 @@
 					home-manager = {
 						useGlobalPkgs = true;
 						useUserPackages = true;
-						user.z3co = import ./home.nix;
+						users.z3co = import ./home.nix;
 						backupFileExtension = "backup";
 					};
 				}
