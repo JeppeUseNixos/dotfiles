@@ -71,6 +71,7 @@ pkgs,
 
 	# Packages
 	environment.systemPackages = with pkgs; [
+		yubikey-manager
 		neovim
 		alacritty
 		fuzzel
