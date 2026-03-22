@@ -84,6 +84,7 @@ pkgs,
 		pass
 		wl-clipboard
 		discord
+		swaylock-effects
 		inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
 	];
 	fonts.fontDir.enable = true;
