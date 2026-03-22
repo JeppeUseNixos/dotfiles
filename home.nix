@@ -29,7 +29,7 @@ in{
     nixfmt
     fzf
 		nix-prefetch-git
-		winboat
+		gimp
   ];
   programs.neovim = {
     enable = true;
@@ -108,4 +108,5 @@ in{
 	xdg.configFile."alacritty".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/alacritty";
 	xdg.configFile."niri".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/niri";
 	xdg.configFile."nvim".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/nvim";
+	xdg.configFile."swaylock".source = config.lib.file.mkOutOfStoreSymlink "/home/z3co/dotfiles/config/swaylock";
 }
