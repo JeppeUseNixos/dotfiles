@@ -88,6 +88,7 @@ pkgs,
 		inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
 		kdePackages.qtsvg
 		kdePackages.dolphin
+		mangohud
 	];
 	fonts.fontDir.enable = true;
 
