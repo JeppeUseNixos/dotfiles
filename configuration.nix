@@ -86,6 +86,8 @@ pkgs,
 		discord
 		swaylock-effects
 		inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+		kdePackages.qtsvg
+		kdePackages.dolphin
 	];
 	fonts.fontDir.enable = true;
 
