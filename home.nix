@@ -10,6 +10,7 @@ pkgs,
 		p.vim
 		p.markdown
 		p.sql
+		p.zig
 	])).overrideAttrs (old: {
 			src = pkgs.fetchFromGitHub {
 				owner = "nvim-treesitter";
