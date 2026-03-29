@@ -89,6 +89,7 @@ pkgs,
 		kdePackages.qtsvg
 		kdePackages.dolphin
 		mangohud
+		bat
 	];
 	fonts.fontDir.enable = true;
 
