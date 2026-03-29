@@ -95,7 +95,8 @@ pkgs,
 			src = ./config/not;
 			installPhase = ''
 				mkdir -p $out/bin
-				install -m755 ${./not} $out/bin/not
+				cp $src/not $out/bin/not
+				chmod +x $out/bin/not
 			'';
 		})
 	];
