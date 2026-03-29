@@ -90,6 +90,14 @@ pkgs,
 		kdePackages.dolphin
 		mangohud
 		bat
+		(stdenv.mkDerivation {
+			name = "not";
+			src = ./config/not;
+			installPhase = ''
+				mkdir -p $out/bin
+				install -m755 ${./not} $out/bin/not
+			'';
+		})
 	];
 	fonts.fontDir.enable = true;
 
