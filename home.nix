@@ -76,6 +76,7 @@ in{
     shellAliases = {
       ll = "ls -lA --color";
       cd = "z";
+			nvime = "nvim $(fzf --preview='bat --color=always {}')";
     };
     autosuggestion.enable = true;
     enableCompletion = true;
