@@ -49,6 +49,7 @@ in{
 			lua-language-server
 			tinymist
 			nixfmt
+			alejandra
 		];
 		plugins = with pkgs.vimPlugins; [
 			catppuccin-nvim
